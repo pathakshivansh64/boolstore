@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/books/';
+const API_URL = 'https://bookstore-rop2.onrender.com/api/books/';
 
 export const getBooks = async () => {
   const response = await axios.get(API_URL);
